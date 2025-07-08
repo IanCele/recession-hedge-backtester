@@ -3,6 +3,4 @@ pandas==2.1.4
 numpy==1.26.2
 matplotlib==3.8.2
 plotly==5.18.0
-# Add this step to your workflow right before pip install
-- name: List files
-  run: ls -la
+python-dateutil==2.8.2  # Required by pandas
